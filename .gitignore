@@ -1,0 +1,37 @@
+# 虚拟环境
+venv/
+__pycache__/
+*.pyc
+
+# 数据 (太大,不上传)
+data/raw/
+data/processed/
+chroma_db/
+chroma_demo/
+chroma_bge/
+
+# 临时文件
+*.log
+.DS_Store
+.vscode/
+.idea/
+EOF~
+cd ~/ai-translator/week3-rag
+cat > .gitignore << 'EOF'
+# 虚拟环境
+venv/
+__pycache__/
+*.pyc
+
+# 数据 (太大,不上传)
+data/raw/
+data/processed/
+chroma_db/
+chroma_demo/
+chroma_bge/
+
+# 临时文件
+*.log
+.DS_Store
+.vscode/
+.idea/
